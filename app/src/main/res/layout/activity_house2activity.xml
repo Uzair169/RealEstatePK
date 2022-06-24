@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".House2activity">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_height="50dp"
+            android:src="@drawable/unnamed" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:fontFamily="@font/andika_new_basic"
+            android:text="Real Estate PK"
+            android:textColor="@color/teal_700"
+            android:textSize="25dp" />
+
+
+        <ImageView
+            android:id="@+id/addv2"
+            android:layout_width="450dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/house2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginStart="5dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/aleo"
+            android:text="Owner's Name: Ali " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:layout_marginStart="5dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/aleo"
+            android:text="City: Rawalpindi"  />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="410dp"
+            android:layout_marginStart="5dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/aleo"
+            android:text="Contact: 03115912349"  />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:layout_marginStart="5dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/aleo"
+            android:text="House condition: 10/10 "  />
+</RelativeLayout>

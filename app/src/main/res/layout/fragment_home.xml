@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_height="50dp"
+            android:src="@drawable/unnamed" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="Real Estate PK"
+        android:textColor="@color/teal_700"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:background="@color/teal_700"
+        android:text=" Advertisement 1" />
+
+    <ImageButton
+        android:id="@+id/addv1"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/house1"
+        android:onClick="onClick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:background="@color/teal_200"
+        android:text=" Advertisement 2"
+        />
+
+    <ImageButton
+        android:id="@+id/addv2"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:onClick="add2"
+        android:scaleType="fitXY"
+        android:src="@drawable/house2" />
+
+</RelativeLayout>
